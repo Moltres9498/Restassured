@@ -1,0 +1,11 @@
+{
+  "name" : [ "madhu", "nms" ],
+  "email" : "abc@gmail.com",
+  "contact" : [ 123456, 456789 ],
+  "age" : 25,
+  "spo" : {
+    "name" : "mikasa",
+    "gender" : "female",
+    "age" : 25
+  }
+}
