@@ -1,0 +1,36 @@
+package ShopperStack;
+
+import java.io.File;
+
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.gherkin.model.Given;
+
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.*;
+
+public class RegisterAsAshopper {
+
+	@Test
+	
+	public void Register() {
+		
+		baseURI="https://www.shoppersstack.com/shopping";
+		
+		File file=new File("./ShopperstackRes/Registerasashopper.json");
+		
+		given()
+		.body(file)
+		.contentType(ContentType.JSON)
+		//.queryParam("Query","ALPHA")
+		
+		.when()
+		.post("/shoppers")
+		
+		.then()
+		.log().all();
+		
+		
+	}
+}

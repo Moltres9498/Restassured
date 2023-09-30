@@ -1,0 +1,12 @@
+{
+  "city": "Bengaluru",
+  "country": "India",
+  "email": "abc123@gmail.com",
+  "firstName": "Gojo",
+  "gender": "MALE",
+  "lastName": "satoru",
+  "password": "abc123d",
+  "phone": 1234567891l,
+  "state": "karnataka",
+  "zoneId": "ALPHA"
+}

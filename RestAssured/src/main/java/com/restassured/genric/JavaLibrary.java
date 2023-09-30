@@ -17,7 +17,7 @@ public class JavaLibrary {
  */
 	public int GetRandomNumber() {
 		Random ran = new Random();
-		int randomnum = ran.nextInt(1000);
+		int randomnum = ran.nextInt(100);
 		return randomnum;
 	}
 	
